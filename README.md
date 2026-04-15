@@ -1,67 +1,61 @@
-# EN
-# Automated Smoke Tests (Playwright)
+# Playwright Smoke Test Template — by Resolvex
 
-## What is covered
-- Critical user journeys (login, checkout, booking, etc.)
-- Smoke tests only (fast & stable)
-- Cross-browser ready
+A production-ready Playwright template for automated smoke testing of web applications.
+Built for fast setup, stable results, and easy maintenance.
 
-
-## How to run tests locally
-```bash
-npm install
-npx playwright install
-npm test
-```
-
-
-## Test reports
-After each run, an HTML report is generated showing:
-- Passed / failed tests
-- Screenshots on failure
-- Execution duration
-
-
-## CI
-Tests run automatically on every push via GitHub Actions.
-
-
-## What is NOT covered
-- Visual regression testing
-- Load / performance testing
-- Complex end-to-end business flows
+> 🚀 Used by Resolvex GmbH to deliver automated test setups to clients in days — not weeks.
 
 ---
 
-# DE
-# Automatisierte Smoke Tests (Playwright)
+## What's covered
 
-## Was wird abgedeckt
-- Kritische User Journeys (Login, Checkout, Buchung, etc.)
-- Nur Smoke Tests (schnell & stabil)
-- Cross-Browser fähig
+- ✅ Critical user journeys (login, checkout, booking, etc.)
+- ✅ Smoke tests — fast, stable, focused on what matters
+- ✅ Cross-browser support (Chromium, Firefox, WebKit)
+- ✅ HTML reports with screenshots on failure
+- ✅ CI/CD ready — runs automatically via GitHub Actions
 
+## What's NOT covered
 
-## Tests lokal ausführen
+- ❌ Visual regression testing
+- ❌ Load / performance testing
+- ❌ Complex end-to-end business flows
+
+---
+
+## Getting started
+
 ```bash
 npm install
 npx playwright install
 npm test
 ```
 
+After each run, an HTML report is generated showing passed/failed tests,
+screenshots on failure, and execution duration.
 
-## Test Reports
-Nach jedem Durchlauf wird ein HTML-Report generiert mit:
-- Bestandenen / fehlgeschlagenen Tests
-- Screenshots bei Fehlern
-- Ausführungsdauer
+---
 
+## CI/CD
 
-## CI
-Tests werden automatisch bei jedem Push via GitHub Actions ausgeführt.
+Tests run automatically on every push via GitHub Actions — no manual setup needed.
 
+---
 
-## Was NICHT abgedeckt wird
-- Visual Regression Testing
-- Load / Performance Testing
-- Komplexe End-to-End Business Flows
+## About Resolvex
+
+This template is maintained by **[Resolvex GmbH](https://www.resolvex.ch)** —
+a Swiss consultancy specialising in AI-assisted Playwright test automation for
+startups, SMEs, and web agencies.
+
+We deliver automated test setups from **390 CHF** — fully configured,
+documented, and ready to run.
+
+👉 **[www.resolvex.ch](https://www.resolvex.ch)**
+
+---
+
+## License
+
+MIT
+
